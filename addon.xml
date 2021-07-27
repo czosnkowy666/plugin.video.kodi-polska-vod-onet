@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.kodi-polska-vod-onet" name="Kodi Polska VOD Onet" version="0.0.1" provider-name="garlic666">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<language>pl</language>
+		<license>Apache2</license>
+        <forum>https://github.com/czosnkowy666/plugin.video.kodi-polska-vod-onet/issues</forum>
+		<source>https://github.com/czosnkowy666/plugin.video.kodi-polska-vod-onet</source>
+        <website>https://github.com/czosnkowy666/plugin.video.kodi-polska-vod-onet/wiki</website>
+        <summary lang="en_GB">Watch videos on demand from the VOD Onet.</summary>
+        <description lang="en_GB">Watch videos on demand from the VOD Onet.</description>
+        <disclaimer lang="en_GB">This add-on is not supported by any broadcaster and is therefore unofficial.</disclaimer>
+        <summary lang="pl_PL">Oglądaj materiały wideo z VOD Onet.</summary>
+        <description lang="pl_PL">Oglądaj materiały wideo z VOD Onet.</description>
+        <disclaimer lang="pl_PL">Ten dodatek nie jest obsługiwany przez żadnego nadawcę i dlatego jest nieoficjalny.</disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
